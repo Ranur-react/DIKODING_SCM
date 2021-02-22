@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Local Storage</title>
+
+</head>
+<body>
+    <p>Anda sudah tekna tombol sebanyak  <span id="count"></span></p>
+    <button id="button">Klik Disini</button>
+    <button id="remove">Hapus Storage</button>
+</body>
+</html>
+
+<script>
+    const cacheKey="number";
+if (typeof(Storage) !== "undefined") {
+    // Browser mendukung sessionStorage/localStorage.
+    var button = document.querySelector("#button");
+    var remove = document.querySelector("#remove");
+    // console.log(button);
+    const count = document.querySelector("#count");
+    button.addEventListener('click',function(e){
+        let number = localStorage.getItem(cacheKey);
+        number++;
+        localStorage.setItem(cacheKey,number);
+        count.innerText=localStorage.getItem(cacheKey);
+    });
+    remove.addEventListener('click',(e)=>{
+        localStorage.removeItem(cacheKey);
+        count.innerText=localStorage.getItem(cacheKey);
+
+    });
+} else {
+    localStorage.setItem(cacheKey,0);
+// Browser tidak mendukung sessionStorage/LocalStorage
+}
+    </script>

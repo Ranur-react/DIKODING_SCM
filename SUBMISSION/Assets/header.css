@@ -1,0 +1,76 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+body {
+    font-family: 'Quicksand', sans-serif;
+    margin: 0px 5%;
+    padding: 0;
+    background-color: #E5E5E5;
+ }
+ header {
+   display: inline;
+   
+}
+
+.jumbotron {
+    font-size: 20px;
+    line-height: 35px;
+    padding: 60px;
+    background-color: #FFFFFF;
+    text-align: left;
+    color: #00A5BC;
+    font-family: 'Poppins','sans-serif';
+ }
+ nav li {
+    display: inline;
+    list-style-type: none;
+ }
+
+ nav {
+    background-color: #FFFFFF;
+    box-shadow: 0.05px 1px 0px 0px rgba(0, 0, 0, 0.1)  ;
+    padding-top: 1px;
+    padding-left: 60px;
+    font-family: 'Poppins','sans-serif';
+    position: sticky;
+    padding-bottom: 1px;
+    /* padding: 0.1px 0px; */
+    top: -10px;
+    
+
+ }
+ /* nav a {
+
+ } */
+ nav>ul {
+    width: auto;
+    display: flex;
+    flex-wrap: wrap-reverse;
+    padding: 0;
+ }
+ nav>ul>li {
+    margin:0;
+ }
+ nav>ul>li> a{
+   font-size: 12px;
+   font-weight: 400;
+   text-decoration: none;
+   color:#181818;
+
+   border-radius: 50%;
+    height: 50px;
+    width: 50px;
+    padding: 10px 10px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    transition: all 0.5s;
+
+ }
+ nav>ul>li> a:hover {
+   font-weight: bold;
+   background-color: #E5E5E5;
+
+ }
+
