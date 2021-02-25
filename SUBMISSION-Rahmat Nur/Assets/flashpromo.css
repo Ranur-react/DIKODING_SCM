@@ -1,0 +1,123 @@
+
+.fullbox{
+    flex: 1;
+    /* box-shadow: 0 4px 8px 0px rgba(0, 0, 0, 0.2); */
+    border-radius: 5px;
+    padding: 10px;
+    text-align: center;
+    /* margin-bottom: auto; */  
+    border-radius: 20px;
+    width: 100%;
+display: flex;
+flex-wrap: wrap;
+flex-direction: column;
+     /* /* align-items: center; */
+     justify-content: flex-start; 
+}
+
+
+
+
+.promo{
+     height: 100px;
+     box-shadow: 0 4px 8px 0px rgba(0, 0, 0, 0.2);
+     width: 100%;
+    border-radius: 10px;
+ 
+     transition: all 0.5s;
+     display: flex;
+     flex-wrap: wrap;
+     flex-direction: row; 
+     margin-bottom: 15px;
+     align-items: center;
+     justify-content: left; 
+
+}
+.hide{
+    /* background-color: #FFFFFF; */
+    display: none;
+}
+.image-promo{
+    /* border-radius: 10px; */
+    border-bottom-left-radius: 10px;
+    border-top-left-radius: 10px;
+    background-color: slategrey;
+    height: 100%;
+    width: 40%;
+    display: flex;
+    overflow: hidden;
+    align-items: center;
+     justify-content: center; 
+}
+.image-promo>img{
+    width: auto;
+    height: 100%;
+}
+
+.promo-content{
+    height: 100px;
+    width: 50%;
+    padding: 0px;
+    padding-left: 10px;
+    display: flex;
+    flex-direction: column;
+}
+.title-promo{
+    height: 30%;
+    padding-top: 20%;
+    width: auto;
+    font-family: 'Quicksand', sans-serif;
+    text-align: center;
+    font-weight: 800;
+    font-size: 18px;
+    /* background-color: blue; */
+    text-align: left;
+    align-items: center;
+    justify-content: center;
+}
+.simpledesk{
+    
+    height: 50%;
+    font-family: 'Quicksand', sans-serif;
+    text-align: left;
+    font-weight: 400;
+    font-size: 12px;
+}
+
+
+
+.Flash-Promo{
+    flex: 1; 
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column; 
+    transition: all 0.5s;
+    align-items: center;
+    justify-content: center;
+}
+
+
+@media screen and (max-width: 1220px) {
+    .image-promo{
+        width: 160px;
+    }
+.title-promo{
+    /* background-color: cornflowerblue; */
+    padding-top: 0px;
+    height: 50%;
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-start;
+    /* padding: 0px auto; */
+
+}
+/* .simpledesk{
+    
+    height: auto;
+    font-family: 'Quicksand', sans-serif;
+    text-align: left;
+    font-weight: 400;
+    font-size: 12px; */
+/* } */
+}
+

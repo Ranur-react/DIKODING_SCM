@@ -1,0 +1,23 @@
+<div class="cardbox ">
+                    <div class="header-box">
+                        Flash Promo
+                    </div>
+                    <div class="profile">
+    
+                        <div class="image-profile Promo">
+                            <img src="Assets\images\Hp1.JPG" alt="">
+                        </div>
+                        <div class="descriptions">
+                            <span class="profile-name">Iphone</span>
+                            <!-- <hr class="hr"> -->
+                            <div class="Personal-Contact">
+                                <div class="icons">
+                                    <img src="Assets\images\github.svg" alt="icons">
+                                    <a href="https://github.com/Ranur-react">Ranur_react</a>
+                                </div>
+    
+                            </div>
+                        </div>
+    
+                    </div>
+                </div>

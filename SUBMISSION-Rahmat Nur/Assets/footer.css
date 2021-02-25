@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+footer{
+    margin-top: 0px;
+    padding: 50px;
+    background-color: #FFFFFF;
+    box-shadow: 0 4px 8px 1px rgba(0, 0, 0, 0.2);
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    transition: all 0.5s;
+ 
+}
+.row{
+    width: 100%;
+    margin: auto auto;
+    padding: 10px 5px;
+    /* background-color:brown; */
+
+}
+.signature{
+    width: 100%;
+    text-align: right;
+    font-family: 'Quicksand', sans-serif;
+    font-size: 12px;
+
+}
+.signature > a {
+ text-decoration: none;
+ color: rgba(0, 0, 0, 0.7);
+}
+.signature > a:hover{
+    color: skyblue;
+   }
+.icon-link{
+        border-radius: 10%;
+        max-width: 100%;
+        /* background-color: aquamarine; */
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+        align-items: center;
+        justify-content: flex-start;
+}
+.icon{
+    overflow: auto;
+    margin: 5px 10px;
+    /* background-color: springgreen; */
+    text-align: center;
+
+}
+.icon>a>img{
+    width: 80%;
+}
+.icon > a:hover{
+    background-color: #E5E5E5;
+}
+@media screen and (max-width: 950px) {
+    .icon>a>img{
+        width: 50%;
+    
+    }
+ }
+
